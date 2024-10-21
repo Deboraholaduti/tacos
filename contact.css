@@ -1,0 +1,46 @@
+body{
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+}
+a:visited {
+color: blue;
+}
+a:hover, a:active{
+    color: red;
+}
+
+table, tr, th, td, caption{
+    border: 1px solid red;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    background: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+.drink{
+    border-radius: 20%;
+}
+.business{
+    color: black;
+}

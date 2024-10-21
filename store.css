@@ -1,0 +1,41 @@
+body{
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0%;
+}
+a:visited {
+color: blue;
+}
+a:hover, a:active{
+    color: red;
+}
+
+table, tr, th, td, caption{
+    border: 1px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+header{
+    background: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+.iphone{
+    color: black;
+}
+#business{
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
+}
